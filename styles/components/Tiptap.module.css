@@ -1,0 +1,58 @@
+.container {
+  width: 400px;
+  height: 300px;
+  border: 2px solid #19191a;
+}
+
+.editorContent {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.editorContent:focus {
+  outline: none;
+}
+
+.editorContent > * {
+  margin-bottom: 15px;
+}
+
+.editorContent > ul,
+.editorContent > ol {
+  padding-left: 15px;
+}
+
+.editorContent > blockquote {
+  border-left: 0.25rem solid #e4ebee;
+  padding: 0 1rem;
+}
+
+.editorContent > code {
+  color: #767b7d;
+  background-color: rgba(#767b7d, 0.1);
+}
+
+.editorContent > pre {
+  background: #19191a;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.editorContent > pre > code {
+  color: inherit;
+  padding: 0;
+  background: none;
+  font-size: 0.8rem;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  border: 2px solid #19191a;
+  border-radius: 6px;
+  background-color: #fff;
+}
